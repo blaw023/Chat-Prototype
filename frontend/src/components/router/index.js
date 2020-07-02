@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { WelcomeContainer } from '../welcome/WelcomeContainer';
-import { ChatWindow} from "../chat";
+import { ChatWindow } from "../chat";
 
 export const Router = () => (
     <BrowserRouter>

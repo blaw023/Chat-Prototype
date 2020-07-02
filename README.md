@@ -14,6 +14,10 @@ Golang on the backend leveraging socket.io. Javascript/React on the frontend lev
 
 ## Running Chat Prototype Locally
 
+- `git clone`
+
+Clone the repo and put it in your local directory. 
+
 - `npm i`
 
 Before running the app, install the frontend packages first. Go into `chat-prototype/frontend` and then run `npm i`. 
@@ -29,3 +33,5 @@ Runs the Go backend server. In order to compile and build into an .exe, run `go 
 Note: If you change the port in the backend, update `frontend/src/components/chat/index.js` line 6 with the new port as well. 
 
 Note: If you change the default frontend port, update `app/main.go` line 17 with the new port as well.
+
+Note: I didn't create a docker config for this app. Therefore, the easiest way to get the backend and frontend running simultaneously is opening two different terminals and running the specified commands.
