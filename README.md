@@ -24,11 +24,11 @@ Before running the app, install the frontend packages first. Go into `chat-proto
 
 - `npm run start`
 
-Runs the react frontend, and watches and auto-builds any changes made to the frontend. Any frontend changes will refresh the browser. By default we'll be listening on port 3000. 
+Runs the react frontend, and watches and auto-builds any changes made to the frontend. Any frontend changes will refresh the browser. By default we'll be listening on port 3000. Run this command from the `frontend` directory. 
 
 - `go build main.go -> main`
 
-Runs the Go backend server. In order to compile and build into an .exe, run `go build main.go`. To run the .exe and start up the server, run `main` from your terminal. By default we'll be listening on port 5000. 
+Runs the Go backend server. In order to compile and build into an .exe, run `go build main.go` from the `app` directory. To run the .exe and start up the server, run `main` from your terminal. By default we'll be listening on port 5000. 
 
 Note: If you change the port in the backend, update `frontend/src/components/chat/index.js` line 6 with the new port as well. 
 
